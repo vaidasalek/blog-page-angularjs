@@ -5,13 +5,15 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CommentComponent } from './comment/comment.component';
-import { Main } from './main.view/main.view.component';
+import { HeaderComponent } from './header/header.component';
+import { PostsComponent } from './posts/posts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CommentComponent,
-    Main.ViewComponent
+    HeaderComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule,

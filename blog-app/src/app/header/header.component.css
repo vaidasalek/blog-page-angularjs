@@ -1,0 +1,8 @@
+header {
+	height: 500px;
+   background-image: url(../../assets/img/header.jpg);
+	background-size: cover;
+	background-position:center;
+	font-family: 'Tangerine', serif;
+	text-shadow: 4px 4px 4px #aaa;
+}
